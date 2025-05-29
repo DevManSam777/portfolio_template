@@ -8,6 +8,7 @@ function toggleTheme() {
     const icon = document.getElementById('theme-icon');
     icon.className = newTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
     
+     // If you are not using the form web component you can comment this out
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
         contactForm.setAttribute('theme', newTheme);
@@ -27,6 +28,7 @@ function initializeTheme() {
         icon.className = savedTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
     }
     
+    // If you are not using the form web component from DevManSam777 you can comment this out
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
         contactForm.setAttribute('theme', savedTheme);
