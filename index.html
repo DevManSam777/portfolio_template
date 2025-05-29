@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sam I. Am - Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://rawcdn.githack.com/DevManSam777/web_inquiry_form/a23fa219013c0800a7b6ad76afb7c016189ab037/web-inquiry-form.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">Sam I. Am</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button class="theme-toggle" onclick="toggleTheme()">
+              <i class="fas fa-moon" id="theme-icon"></i>
+            </button>
+          </li>
+        </ul>
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content fade-in">
+          <h1>Sam I. Am</h1>
+          <p class="subtitle">Full Stack Developer | MERN Stack Specialist</p>
+          <p class="description">
+            Full-stack software engineer specializing in the MERN stack
+            (MongoDB, Express, React, Node.js). Passionate about creating
+            user-friendly and efficient web solutions that solve real-world
+            problems.
+          </p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-code"></i>
+              View My Work
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fas fa-envelope"></i>
+              Get In Touch
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p>
+            Passionate developer with a love for clean code and innovative
+            solutions
+          </p>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <div class="placeholder">
+              <i class="fas fa-user"></i>
+            </div>
+          </div>
+          <div class="about-text">
+            <h3>Hello! I'm Sam I. Am</h3>
+            <p>
+              I'm a full-stack software engineer specializing in the MERN stack
+              (MongoDB, Express, React, Node.js). I have a passion for building
+              efficient, user-friendly web applications that solve real-world
+              problems and provide exceptional user experiences.
+            </p>
+            <p>
+              My expertise lies in JavaScript and its ecosystem, from creating
+              dynamic React frontends to building robust Node.js backends. I
+              enjoy working with MongoDB for flexible data storage and
+              Express.js for clean, scalable server-side development.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new web
+              technologies, contributing to open source projects, or writing
+              about web development. I believe in continuous learning and
+              staying current with the ever-evolving JavaScript ecosystem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills & Technologies</h2>
+          <p>The tools and technologies I use to bring ideas to life</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Frontend</h3>
+            <ul class="skill-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Bootstrap</li>
+              <li>Sass</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-server"></i> Backend</h3>
+            <ul class="skill-list">
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>Astro</li>
+              <li>TypeScript</li>
+              <li>Mongoose</li>
+              <li>JWT Authentication</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> DevOps & Tools</h3>
+            <ul class="skill-list">
+              <li>Docker</li>
+              <li>Linux</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>AWS</li>
+              <li>Nginx</li>
+              <li>Webpack</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>Featured Projects</h2>
+          <p>Some of the projects I've worked on recently</p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="project-content">
+              <h3>E-Commerce Platform</h3>
+              <p>
+                A full-featured e-commerce platform with user authentication,
+                payment processing, and admin dashboard. Built with modern
+                technologies for optimal performance.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" target="_blank">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="project-content">
+              <h3>Analytics Dashboard</h3>
+              <p>
+                Real-time analytics dashboard for tracking website metrics and
+                user behavior. Features interactive charts and data
+                visualization built with the MERN stack.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Chart.js</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" target="_blank">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="project-content">
+              <h3>Task Management App</h3>
+              <p>
+                Collaborative task management application with real-time
+                updates, team features, and mobile-responsive design. Perfect
+                for remote teams.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Socket.io</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" target="_blank">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-intro">
+          <h2>Let's Work Together</h2>
+          <p>
+            Have a project in mind? I'd love to hear about it! Whether you need
+            a new website, web application, or just want to chat about
+            technology, feel free to reach out.
+          </p>
+        </div>
+
+        <div class="contact-form-container">
+          <web-inquiry-form api-url="https://www.devleads.site/api/leads" id="contact-form" theme="system"></web-inquiry-form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-left">
+            <p>&copy; <span id="current-year"></span> Sam I. Am. All rights reserved.</p>
+          </div>
+          <div class="social-links">
+            <a href="#" target="_blank" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" target="_blank" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" target="_blank" title="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" target="_blank" title="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
