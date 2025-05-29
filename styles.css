@@ -91,6 +91,7 @@ html {
 .nav-links {
     display: flex;
     list-style: none;
+    gap: 1rem;
     align-items: center;
 }
 
@@ -526,6 +527,7 @@ section {
         border-left: 1px solid var(--border-color);
         box-shadow: var(--shadow-lg);
         z-index: 1000;
+        gap: 0;
     }
 
     [data-theme="dark"] .nav-links {
