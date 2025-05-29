@@ -1,5 +1,7 @@
 # Developer Portfolio
 
+![Portfolio Screenshot](./assets/hero.png)
+
 A clean, modern developer portfolio website with light and dark theme support. Perfect for showcasing your skills, projects, and experience as a software developer.
 
 ## Features
@@ -15,7 +17,7 @@ A clean, modern developer portfolio website with light and dark theme support. P
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone git@github.com:DevManSam777/portfolio_template.git
    cd portfolio
    ```
 
@@ -63,9 +65,15 @@ Customize the color scheme by modifying CSS variables in `styles.css`:
 ```
 
 ### Contact Form
-The portfolio includes a web inquiry form component. To use your own contact form:
-1. Replace the `<web-inquiry-form>` element with your preferred form solution
-2. Update the form styling in CSS if needed
+The portfolio includes a web inquiry form component. 
+
+- Feel free to use the included web component: https://github.com/DevManSam777/web_inquiry_form
+
+To use your own contact form:
+
+- Replace the `<web-inquiry-form>` element with your preferred form solution
+- Update the form styling in CSS if needed
+
 
 ## File Structure
 
@@ -96,3 +104,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - Icons by [Font Awesome](https://fontawesome.com/)
 - Font family: Nunito by Google Fonts
+
+![Portfolio Screenshot](./assets/hero.png)
+![Portfolio Screenshot](./assets/about.png)
+![Portfolio Screenshot](./assets/skills.png)
+![Portfolio Screenshot](./assets/projects.png)
+![Portfolio Screenshot](./assets/form.png)
+![Portfolio Screenshot](./assets/footer.png)
