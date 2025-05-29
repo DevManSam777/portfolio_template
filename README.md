@@ -1,7 +1,8 @@
 # Developer Portfolio
 
 ![Portfolio Screenshot](./assets/hero.png)
-
+![Dark Theme](./assets/dark.png)
+ 
 A clean, modern developer portfolio website with light and dark theme support. Perfect for showcasing your skills, projects, and experience as a software developer.
 
 ## Features
