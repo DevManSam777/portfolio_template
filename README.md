@@ -18,7 +18,7 @@ A clean, modern developer portfolio website with light and dark theme support. P
 1. **Clone the repository**
    ```bash
    git clone git@github.com:DevManSam777/portfolio_template.git
-   cd portfolio
+   cd portfolio_template
    ```
 
 2. **Open in browser**
