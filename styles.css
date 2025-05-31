@@ -547,7 +547,7 @@ section {
 
     .nav-links a {
         display: block;
-        padding: 1rem;
+        padding: 0 1rem;
         font-size: 1.1rem;
         width: 100%;
         border-radius: 8px;
@@ -556,6 +556,10 @@ section {
 
     .nav-links a:hover {
         background: var(--bg-light);
+    }
+
+    .theme-toggle {
+        margin: 0 auto;
     }
 
     .mobile-menu-btn {
