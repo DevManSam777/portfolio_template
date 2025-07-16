@@ -98,8 +98,9 @@ portfolio/
 Feel free to fork this project and make it your own! If you find bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## License
+[LICENSE](LICENSE)  
 
-This project is open source and available under the [MIT License](LICENSE).
+Copyright (c) 2025 DevManSam
 
 ## Credits
 
