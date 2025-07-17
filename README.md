@@ -75,7 +75,7 @@ To use your own contact form:
 - Replace the `<web-inquiry-form>` element with your preferred form solution
 - Update the form styling in CSS if needed
 
-If you want to run your own server for form submissions with client and host email notifacations, feel free to use this one I created.
+If you want to run your own server for form submissions with client and host email notifications, feel free to use this one I created.
 
 - https://github.com/DevManSam777/forms-server
 
