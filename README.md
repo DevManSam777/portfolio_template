@@ -3,7 +3,7 @@
 ![Portfolio Screenshot](./assets/hero.png)
 ![Dark Theme](./assets/dark.png)
 
-A clean, modern developer portfolio template with light and dark theme support. Perfect for showcasing your skills, projects, and experience as a software developer.
+I made a clean, modern developer portfolio template with light and dark theme support that's perfect for showcasing your skills, projects, and experience as a software developer.  Enjoy!
 
 ## Features
 
