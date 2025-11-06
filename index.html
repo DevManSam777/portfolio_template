@@ -129,24 +129,28 @@
     />
 
     <!-- Scripts -->
-    <script
+     <!-- Optional: Short Contact Form - comment out to remove-->
+    <script src="https://cdn.jsdelivr.net/gh/DevManSam777/minimalist-contact-form@main/contact-form.js" defer></script>
+
+    <!--Optional: Full Web Inquiry Form -uncomment to-->
+    <!-- <script
       src="https://cdn.jsdelivr.net/gh/DevManSam777/web_inquiry_form@main/web-inquiry-form.js"
       defer
-    ></script>
+    ></script> -->
 
-    <!-- Optional: Back to Top Button - Uncomment if desired -->
+    <!-- Optional: Back to Top Button - comment out to remove -->
     <script
       src="https://cdn.jsdelivr.net/gh/DevManSam777/back-to-top@main/back-to-top.js"
       defer
     ></script>
 
-    <!-- Optional: Custom Cursor - Uncomment if desired -->
+    <!-- Optional: Custom Cursor - comment out to remove  -->
     <script
       src="https://cdn.jsdelivr.net/gh/DevManSam777/custom-cursor@main/custom-cursor.js"
       defer
     ></script>
 
-    <!-- Optional: Typewriter Effect - Uncomment if desired -->
+    <!-- Optional: Typewriter Effect - comment out to remove -->
     <script
       src="https://cdn.jsdelivr.net/gh/DevManSam777/typewriter-web-component@main/typewriter-component.js"
       defer
@@ -155,15 +159,16 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <!-- Optional: Custom Cursor - Uncomment if desired -->
+    <!-- Optional: Custom Cursor - comment out to remove -->
     <style>
       body {
         cursor: none;
       }
     </style>
     <custom-cursor theme="blue"></custom-cursor>
+    <!--end Custom Cursor-->
 
-    <!-- Optional: Back to Top Button - Uncomment if desired and configure as needed -->
+    <!-- Optional: Back to Top Button - comment out to remove -->
     <back-to-top
       size="4rem"
       side-offset=".5rem"
@@ -573,7 +578,31 @@
           You can customize the form colors and styling with the attributes below.
         -->
         <div class="contact-form-container">
-          <web-inquiry-form
+          <!--Comment this out and it's script import in the head section and uncomment the full web inquiry form and its script import in head section to use that instead-->
+          <contact-form
+        endpoint=""https://www.your-api-endpoint-url-goes-here""
+        primary-color="#2563eb"
+        background-color="rgba(255, 255, 255, 0.1)"
+        text-color="#333333"
+        border-color="rgba(209, 213, 219, 0.9)"
+        border-radius="8px"
+        input-background-color="rgba(249, 250, 251, 0.9)"
+        input-text-color="#1f2937"
+        input-border-color="rgba(209, 213, 219, 0.9)"
+        font-size="16px"
+        google-font="Nunito Sans"
+        dark-primary-color="#3b82f6"
+        dark-background-color="rgba(32, 41, 55, 0.1)"
+        dark-text-color="#f3f4f6"
+        dark-border-color="rgba(57, 65, 75, 0.5)"
+        dark-input-background-color="rgba(31, 41, 55, 0.5)"
+        dark-input-text-color="#f3f4f6"
+        dark-input-border-color="rgba(57, 65, 75, 0.5)"
+        heading="Contact Form"
+        success-message="Thank you! Your message has been sent successfully. We'll get back to you soon!"
+      ></contact-form>
+          <!-- Uncomment the web-inquiry-form to use that instead of short form as well as script import for it in head section-->
+          <!-- <web-inquiry-form
             api-url="https://www.your-api-endpoint-url-goes-here"
             id="contact-form"
             form-title="Web Development Inquiry"
@@ -602,7 +631,7 @@
             dark-success-color="#4ade80"
             dark-error-color="#f87171"
             dark-progress-color="#60a5fa"
-          ></web-inquiry-form>
+          ></web-inquiry-form> -->
         </div>
       </div>
     </section>

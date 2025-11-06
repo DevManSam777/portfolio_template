@@ -1,7 +1,7 @@
 # Developer Portfolio Template
 
-![Portfolio Screenshot](./assets/hero.png)
-![Dark Theme](./assets/dark.png)
+![Portfolio Hero - Light Mode](./assets/hero_light.png)
+![Portfolio Hero - Dark Mode](./assets/hero_dark.png)
 
 I made a clean, modern developer portfolio template with light and dark theme support that's perfect for showcasing your skills, projects, and experience as a software developer.  Enjoy!
 
@@ -75,7 +75,35 @@ Customize the color scheme by modifying CSS variables in `styles.css`:
 
 ### Contact Form
 
-The portfolio includes the [web-inquiry-form](https://github.com/DevManSam777/web_inquiry_form) web component.
+The portfolio includes two form web components - choose the one that fits your needs:
+
+**Form Option 1: Minimalist Contact Form (Default)**
+
+The template uses the [minimalist-contact-form](https://github.com/DevManSam777/minimalist-contact-form) web component by default. This is a clean, simple contact form perfect for basic inquiries with fields for name, email, phone, and message.
+
+- **GitHub:** https://github.com/DevManSam777/minimalist-contact-form
+- **Customization:** See the README in the repo for full list of customizable attributes
+
+**Form Option 2: Full Web Inquiry Form**
+
+For more detailed project inquiries, you can switch to the [web-inquiry-form](https://github.com/DevManSam777/web_inquiry_form) component. This includes additional fields for budget, timeline, project type, and more detailed project information.
+
+- **GitHub:** https://github.com/DevManSam777/web_inquiry_form
+- **Customization:** See the README in the repo for full list of customizable attributes
+
+**Switching Between Forms:**
+
+To switch between forms in `index.html`:
+1. Comment out the current form's script import in the `<head>` section
+2. Uncomment the desired form's script import
+3. Comment out the current form component in the Contact section
+4. Uncomment the desired form component
+
+Both forms are highly customizable through HTML attributes including colors (light/dark mode), typography, border radius, and custom messages.
+
+**Backend Options:**
+
+Both forms require a backend API endpoint:
 
 **Option 1: Use DevLeads (Recommended)**
 
@@ -83,17 +111,17 @@ The portfolio includes the [web-inquiry-form](https://github.com/DevManSam777/we
 - Sends email notifications to you and your clients
 - Tracks and manages leads/projects
 - Provides a dashboard to view all inquiries
-- Includes a built-in API endpoint for the form
+- Includes a built-in API endpoint for both forms
 
-Simply deploy DevLeads and update the form's `api-url` attribute to point to your DevLeads instance.
+Simply deploy DevLeads and update the form's `endpoint` or `api-url` attribute to point to your DevLeads instance.
 
 **Option 2: Use Your Own API**
 
-Create your own backend API endpoint and update the `api-url` attribute in the `<web-inquiry-form>` element.
+Create your own backend API endpoint and update the `endpoint` (for minimalist-contact-form) or `api-url` (for web-inquiry-form) attribute in the form component.
 
 **Option 3: Replace the Form**
 
-Replace the `<web-inquiry-form>` element with your preferred form solution and update the styling in CSS if needed.
+Replace the form component with your preferred form solution.
 
 ### Optional Features
 
@@ -143,16 +171,18 @@ Feel free to clone this project and make it your own! If you find bugs or have s
 - Font family: Nunito by Google Fonts
 - Web components by [DevManSam777](https://github.com/DevManSam777)
 
-![Portfolio Screenshot](./assets/hero.png)
-![Portfolio Screenshot](./assets/about.png)
-![Portfolio Screenshot](./assets/skills.png)
-![Portfolio Screenshot](./assets/projects.png)
-![Portfolio Screenshot](./assets/form1.png)
-![Portfolio Screenshot](./assets/form_dark.png)
-![Portfolio Screenshot](./assets/form2.png)
-![Portfolio Screenshot](./assets/form3.png)
-![Portfolio Screenshot](./assets/form4.png)
-![Portfolio Screenshot](./assets/footer.png)
+![Hero Section - Light Mode](./assets/hero_light.png)
+![Hero Section - Dark Mode](./assets/hero_dark.png)
+![About Section - Light Mode](./assets/about_light.png)
+![About Section - Dark Mode](./assets/about_dark.png)
+![Skills Section - Light Mode](./assets/skills_light.png)
+![Projects Section - Light Mode](./assets/projects_light.png)
+![Projects Section - Dark Mode](./assets/projects_dark.png)
+![Minimalist Contact Form - Light Mode](./assets/light_contact_form.png)
+![Minimalist Contact Form - Dark Mode](./assets/dark_contact_form.png)
+![Web Inquiry Form - Light Mode](./assets/light_web_inquiry_form.png)
+![Web Inquiry Form - Dark Mode](./assets/dark_web_inquiry_form.png)
+![Footer Section - Dark Mode](./assets/footer_dark.png)
 
 ## License
 [LICENSE](LICENSE)
