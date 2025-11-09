@@ -232,7 +232,7 @@ html {
 }
 
 .btn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
@@ -684,8 +684,10 @@ section {
   margin: 0 auto;
 }
 
-.contact-form-container web-inquiry-form {
+.contact-form-container web-inquiry-form,
+.contact-form-container contact-form {
   width: 100%;
+  margin: 0;
 }
 
 .footer {
